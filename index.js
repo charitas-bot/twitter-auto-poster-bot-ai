@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "web3 games news, announcements, tips and tricks";
+    "https://cointelegraph.com/tags/games web3 games news, announcements, tips and tricks";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
